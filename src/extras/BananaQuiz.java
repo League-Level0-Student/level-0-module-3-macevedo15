@@ -10,10 +10,22 @@ public class BananaQuiz
 	public static void main(String[] args)
 	{
 		//1. ask the user if they like bananas
+String bananas= JOptionPane.showInputDialog(null, "do you like bananas?");
 		//2. if they say no, 
+		if (bananas.equals("no")) {
+			JOptionPane.showMessageDialog(null, "you are crazy");
+		}
 			//tell them they are crazy 
+		
 			//and end quiz
 		//3. if they say yes
+		else if(bananas.equals("yes")){
+String hobby=JOptionPane.showInputDialog(null, "what is your favorite hobby?");
+		JOptionPane.showMessageDialog(null, hobby);
+		
+		}
+		
+		}
 		//	ask them what is their favorite hobby
 		//	show a pop up that says "<your hobby> is much better with bananas!"
 
@@ -22,4 +34,4 @@ public class BananaQuiz
 	
 	}
 
-}
+
