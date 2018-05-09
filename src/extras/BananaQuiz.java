@@ -21,7 +21,9 @@ String bananas= JOptionPane.showInputDialog(null, "do you like bananas?");
 		//3. if they say yes
 		else if(bananas.equals("yes")){
 String hobby=JOptionPane.showInputDialog(null, "what is your favorite hobby?");
-		JOptionPane.showMessageDialog(null, hobby);
+		JOptionPane.showMessageDialog(null, hobby + " is better with bananas");
+		
+		
 		
 		}
 		
