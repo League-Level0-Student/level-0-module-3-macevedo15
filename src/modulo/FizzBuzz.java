@@ -32,11 +32,12 @@ public class FizzBuzz {
 		for (int i = 1; i <=20;i++) {
 		System.out.println(i);		
 	if(i%3==0) {
-		syso("fizz");
-		
+		System.out.println("fizz");
+		}
+	else {
+		()
 	}
-		
-		
+	
 	}
 }
 }
